@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.gitignore.io/api/visualstudiocode,scala,metals,macos,linux,exercism
-# Edit at https://www.gitignore.io/?templates=visualstudiocode,scala,metals,macos,linux,exercism
+# Created by https://www.gitignore.io/api/visualstudiocode,scala,metals,macos,linux,exercism,sbt
+# Edit at https://www.gitignore.io/?templates=visualstudiocode,scala,metals,macos,linux,exercism,sbt
 
 ### Exercism ###
 # gitignore template for Exercism project
@@ -56,6 +56,20 @@ Temporary Items
 ### Metals ###
 .metals/
 
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
 ### Scala ###
 *.class
 *.log
@@ -70,8 +84,8 @@ Temporary Items
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
-.history
 
-# End of https://www.gitignore.io/api/visualstudiocode,scala,metals,macos,linux,exercism
+# End of https://www.gitignore.io/api/visualstudiocode,scala,metals,macos,linux,exercism,sbt
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
