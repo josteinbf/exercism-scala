@@ -1,7 +1,10 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.gitignore.io/api/visualstudiocode,scala,metals,macos,linux,exercism,sbt
-# Edit at https://www.gitignore.io/?templates=visualstudiocode,scala,metals,macos,linux,exercism,sbt
+# Created by https://www.gitignore.io/api/visualstudiocode,scala,sbt,metals,macos,linux,exercism,bloop
+# Edit at https://www.gitignore.io/?templates=visualstudiocode,scala,sbt,metals,macos,linux,exercism,bloop
+
+### Bloop ###
+.bloop/
 
 ### Exercism ###
 # gitignore template for Exercism project
@@ -85,7 +88,6 @@ project/plugins/project/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 
-# End of https://www.gitignore.io/api/visualstudiocode,scala,metals,macos,linux,exercism,sbt
+# End of https://www.gitignore.io/api/visualstudiocode,scala,sbt,metals,macos,linux,exercism,bloop
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
-
